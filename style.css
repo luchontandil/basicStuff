@@ -1,0 +1,9 @@
+@font-face {
+  font-family: nixie;
+  src: url(fonts/JosefinSlab-Thin.ttf);
+}
+#main{
+  font-family: nixie;
+  font-size: 300px;
+  text-align: left;
+}
