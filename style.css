@@ -1,9 +1,134 @@
+*{
+  margin: auto;
+  padding: 0;
+  background-color: black;
+  display: inline-block;
+}
+
 @font-face {
   font-family: nixie;
   src: url(fonts/JosefinSlab-Thin.ttf);
 }
-#main{
+
+#clock{
   font-family: nixie;
-  font-size: 300px;
-  text-align: left;
+  font-size: 19vw;
+  color: orange;
 }
+
+.character {
+  /* background-color: blue; */
+  text-align: center;
+  width: 12vw;
+}
+
+.background::after{
+  content: "0";
+  width: 0px;
+  height: 0px;
+  position: relative;
+  top: calc(-22vw - calc(2px));
+  left: 0px;
+  color: orange;
+  opacity: 0.2;
+  margin: auto;
+ }
+ .background1::after {
+   content: "1";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-45vw);
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background2::after {
+   content: "2";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-67vw);
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background3::after {
+   content: "3";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-89vw - calc(2px));
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background4::after {
+   content: "4";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-111vw - calc(6px));
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background5::after {
+   content: "5";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-134vw);
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background6::after {
+   content: "6";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-156vw - calc(6px));
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background7::after {
+   content: "7";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-179vw - calc(2px));
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background8::after {
+   content: "8";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-201vw - calc(2px));
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
+ .background9::after {
+   content: "9";
+   width: 0px;
+   height: 0px;
+   position: relative;
+   top: calc(-224vw);
+   left: 0px;
+   color: orange;
+   opacity: 0.2;
+   margin: auto;
+ }
