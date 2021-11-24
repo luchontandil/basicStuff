@@ -66,4 +66,3 @@ function init() {
 window.onload = init;
 
 
-//cambios para pasar al branch y testear si todo funciona correcto
