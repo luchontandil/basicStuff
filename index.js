@@ -64,3 +64,6 @@ function init() {
 
 // Init the environment when all is ready
 window.onload = init;
+
+
+//cambios para pasar al branch y testear si todo funciona correcto
